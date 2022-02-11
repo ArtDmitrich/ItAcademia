@@ -11,6 +11,7 @@ namespace Task1
             Console.WriteLine("Задайте сколько раз нужно ударить по гвоздю, чтобы он забился");
             var numberOfStrokes = InputAndCheckingOfNumber(5);
 
+
             Nailing(numberOfNails, numberOfStrokes);
         }
         static int InputAndCheckingOfNumber(int max)
