@@ -19,7 +19,7 @@ namespace Task1
             string input = Console.ReadLine();
             bool result = int.TryParse(input, out int number);
 
-            if (result == false || number < 0 || number > max)
+            if (result == false || number <= 0 || number > max)
             {
                 number = InputAndCheckingOfNumber(max);
             }
