@@ -21,6 +21,7 @@ namespace Task1
 
             if (result == false || number <= 0 || number > max)
             {
+                Console.WriteLine("Ошибка ввода данных!");
                 number = InputAndCheckingOfNumber(max);
             }
             
